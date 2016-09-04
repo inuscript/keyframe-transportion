@@ -1,9 +1,9 @@
-const keyframeTranspotion = require('../index')
+const keyframeTranspose = require('../index')
 const assert = require('assert')
 
-describe('keyframeTranspotion', function () {
+describe('keyframeTranspose', function () {
   it('default pattern', function () {
-    const result = keyframeTranspotion({
+    const result = keyframeTranspose({
       opacity: [0.5, 1],
       transform: ['scale(0.5)', 'scale(1)']
     })
@@ -14,7 +14,7 @@ describe('keyframeTranspotion', function () {
     assert.deepEqual(result, expect)
   })
   it('calcurate offset', function () {
-    const result = keyframeTranspotion({
+    const result = keyframeTranspose({
       opacity: [0.5, 2, 1],
       transform: ['scale(0.5)', 'scale(1)']
     })

@@ -1,6 +1,5 @@
 'use strict'
 
-
 // { opacity: [0.5, 1] } 
 // => [ { offset: 1, keyframes: {opacity: 0.5} , { offset: 1, keyframes: {opacity: 1} ]
 // { opacity: [0.5, 0, 1] } 

@@ -1,12 +1,12 @@
-# keyframe-transpotion
+# keyframe-transpose
 Convert object keyframe input to array
 
 # Usage
 
 ```js
-const keyframeTranspotion = require('keyframe-transpotion')
+const keyframeTranspose = require('keyframe-transpose')
 
-keyframeTranspotion({
+keyframeTranspose({
   opacity: [0.5, 2, 1],
   transform: ['scale(0.5)', 'scale(1)']
 })
