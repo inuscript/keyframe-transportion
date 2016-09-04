@@ -9,6 +9,8 @@
   "scripts": {
     "test": "mocha",
     "prebuild": "rimraf lib",
+    "prepublish": "npm run build",
+    "preversion": "npm run build",
     "build": "babel src --out-dir lib"
   },
   "keywords": ["keyframe"],
