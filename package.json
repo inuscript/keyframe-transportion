@@ -16,6 +16,10 @@
     "lib",
     "src"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inuscript/keyframe-transportion.git"
+  },
   "author": "inuscript <inuscript@gmail.com>",
   "license": "MIT",
   "devDependencies": {
