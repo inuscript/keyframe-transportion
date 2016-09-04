@@ -1,6 +1,6 @@
 {
   "name": "keyframe-transpose",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Convert object keyframe input to array",
   "main": "lib/index.js",
   "directories": {
@@ -13,7 +13,9 @@
     "preversion": "npm run build",
     "build": "babel src --out-dir lib"
   },
-  "keywords": ["keyframe"],
+  "keywords": [
+    "keyframe"
+  ],
   "files": [
     "lib",
     "src"
