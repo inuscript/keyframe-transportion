@@ -21,7 +21,7 @@ describe('keyframeTranspose', function () {
     const expect = [
       { offset: 0, opacity: 0.5, transform: 'scale(0.5)' },
       { offset: 0.5, opacity: 2 },
-      { offset: 1, opacity: 1 , transform: 'scale(1)' },
+      { offset: 1, opacity: 1, transform: 'scale(1)' }
     ]
     assert.deepEqual(result, expect)
   })
