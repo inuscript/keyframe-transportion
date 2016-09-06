@@ -2,7 +2,7 @@
 Convert object keyframe input to array
 
 [![npm](https://img.shields.io/npm/v/keyframe-transpose.svg)](https://www.npmjs.com/package/keyframe-transpose)
-[![CircleCI](https://img.shields.io/circleci/project/inuscript/keyframe-transpose.svg)](https://circleci.com/gh/inuscript/keyframe-transpose)
+[![Build Status](https://travis-ci.org/inuscript/keyframe-transpose.svg?branch=master)](https://travis-ci.org/inuscript/keyframe-transpose)
 
 # Usage
 
