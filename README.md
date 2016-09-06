@@ -15,6 +15,8 @@ keyframeTranspose({
 })
 ```
 
+[Live Example](https://tonicdev.com/inuscript/57cecc40b532091400d4c4e1) (tonicdev)
+
 Output:
 
 ```js
