@@ -1,4 +1,4 @@
-const keyframeTranspose = require('../src')
+const keyframeTranspose = require('../lib')
 const assert = require('assert')
 
 describe('keyframeTranspose', function () {
