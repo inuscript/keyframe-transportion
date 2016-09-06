@@ -15,8 +15,6 @@ keyframeTranspose({
 })
 ```
 
-[Live Example](https://tonicdev.com/inuscript/57cecc40b532091400d4c4e1) (tonicdev)
-
 Output:
 
 ```js
@@ -26,3 +24,9 @@ Output:
   { offset: 1, opacity: 1 , transform: 'scale(1)' },
 ]
 ```
+
+[Live Example](https://tonicdev.com/inuscript/57cecc40b532091400d4c4e1) (tonicdev)
+
+# Related Project
+
+- [keyshond](https://github.com/inuscript/keyshond)
